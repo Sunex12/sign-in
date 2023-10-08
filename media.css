@@ -1,0 +1,59 @@
+@media(max-width: 1313px) {
+    .sing-in-img {
+        display: none;
+    }
+    .sing-in-box {
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+    }
+    .logo {
+        position: static;
+        margin-bottom: 56px;
+        top: 0;
+    }
+    .sing-in__create {
+       display: none;
+    }
+    .wrapper {
+        width: 375px;
+        height: 812px;
+        padding: 88px 24px 0px 24px; 
+        position: relative;
+    }
+    .sing-in-title {
+        font-size: 32px;
+        text-align: start;
+    }
+    .sing-in-text {
+        font-size: 14px;
+        text-align: start;
+    }
+    .sing-in__form-label {
+        text-align: start;
+    }
+    .sing-in__form-link {
+        margin-left: 76px;
+    }
+    .sing-in__form-button {
+        padding: 12px 136px;
+    }
+    .sing-in__form-button-with-google-box {
+        padding: 12px 70px;
+    }
+    .line {
+        display: flex;
+    }
+    .sing-in__form-link:hover {
+        text-decoration: none;
+    }
+    .sing-in__account-link:hover {
+        text-decoration: none;
+    }
+    .sing-in__form-button-with-google-box:hover {
+        background: #ffffff ;
+    }
+    .sing-in__form-button:hover {
+        background: var(--Primary-Color, #5429FF); 
+    }
+}
